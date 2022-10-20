@@ -1,0 +1,624 @@
+{
+  "id": "d476d767-821d-4c96-8338-aecc5c6f4450",
+  "version": "2.0",
+  "name": "testHW",
+  "url": "https://book-ye.com.ua/",
+  "tests": [{
+    "id": "275df86d-be4a-4ad7-869d-e59139aecea4",
+    "name": "1",
+    "commands": [{
+      "id": "e9637687-52d6-4bda-8b00-ce74c8a3f2e1",
+      "comment": "",
+      "command": "open",
+      "target": "https://book-ye.com.ua/catalog/dytyacha-literatura/?gclid=Cj0KCQjw48OaBhDWARIsAMd966DWz1atfYALN6sXZ-7UaehUUeiobTd-9Y1l0lPoA-mZ_N8Bku9FwIoaAmwNEALw_wcB#/search/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e76220b-5056-4617-a627-4711526fdf31",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x702",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1767bd4-0d32-49fc-9309-b3b5bcb51a11",
+      "comment": "",
+      "command": "check",
+      "target": "id=title-search-input",
+      "targets": [
+        ["id=title-search-input", "id"],
+        ["name=q", "name"],
+        ["css=#title-search-input", "css:finder"],
+        ["xpath=//input[@id='title-search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='title-search']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef66c573-281f-4d55-9f91-c39e422ae6a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81782be9-59da-4ea7-a205-5006283c0989",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='multi-form']/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/div/form/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "fe08eece-ed71-4c0c-9569-03939dadb23f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.multi-cell:nth-child(1) > .multi-item:nth-child(2) a > span",
+      "targets": [
+        ["css=.multi-cell:nth-child(1) > .multi-item:nth-child(2) a > span", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Test in English: World-Formation = Тести з англійської мови. Словотворення: Посібник')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56b5d14a-7e32-4fd1-9e27-b168ddb02e38",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=span:nth-child(3) span",
+      "targets": [
+        ["css=span:nth-child(3) span", "css:finder"],
+        ["xpath=//span[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d275fc4-fc3a-48a8-9693-737426bec134",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,24)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b60cc3e-096c-4f7e-b969-42421c02e905",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Купити",
+      "targets": [
+        ["linkText=Купити", "linkText"],
+        ["css=.button--width", "css:finder"],
+        ["xpath=//a[contains(text(),'Купити')]", "xpath:link"],
+        ["xpath=//section[@id='bx_117848907_66003']/div/div/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"javascript:add2basket(66003, 'ua')\")]", "xpath:href"],
+        ["xpath=//section/div/div/div/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": "Купити"
+    }, {
+      "id": "c226514b-4665-4f6e-96c4-5f582e306ff1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Купити",
+      "targets": [
+        ["linkText=Купити", "linkText"],
+        ["css=.button--width", "css:finder"],
+        ["xpath=//a[contains(text(),'Купити')]", "xpath:link"],
+        ["xpath=//section[@id='bx_117848907_66003']/div/div/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"javascript:add2basket(66003, 'ua')\")]", "xpath:href"],
+        ["xpath=//section/div/div/div/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "055a34f7-7127-40d7-acce-0edc36fe97fa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Купити",
+      "targets": [
+        ["linkText=Купити", "linkText"],
+        ["css=.button--width", "css:finder"],
+        ["xpath=//a[contains(text(),'Купити')]", "xpath:link"],
+        ["xpath=//section[@id='bx_117848907_66003']/div/div/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"javascript:add2basket(66003, 'ua')\")]", "xpath:href"],
+        ["xpath=//section/div/div/div/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea1cfabd-d859-4244-9b37-b9791541ae3b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Купити",
+      "targets": [
+        ["linkText=Купити", "linkText"],
+        ["css=.button--width", "css:finder"],
+        ["xpath=//a[contains(text(),'Купити')]", "xpath:link"],
+        ["xpath=//section[@id='bx_117848907_66003']/div/div/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"javascript:add2basket(66003, 'ua')\")]", "xpath:href"],
+        ["xpath=//section/div/div/div/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cfd7494-5500-463c-ae91-822409bce0b2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#es_1 > .product__media-wrap",
+      "targets": [
+        ["css=#es_1 > .product__media-wrap", "css:finder"],
+        ["xpath=//div[@id='es_1']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://book-ye.com.ua/catalog/pidruchnyky-posibnyky/a-way-to-success-english-for-university-students-reader/?sc_content=21938_r427v1454')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5025e1b-52ce-4335-8f7d-7b75b732866c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//a[contains(text(),'Оформити замовлення')]",
+      "targets": [
+        ["linkText=Оформити замовлення", "linkText"],
+        ["css=.modal-content__btn-secondary", "css:finder"],
+        ["xpath=//a[contains(text(),'Оформити замовлення')]", "xpath:link"],
+        ["xpath=//div[@id='product-modal']/div/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/personal/order/make/')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Оформити замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c5f7b49-6927-48fc-952b-b3b3ec240471",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,424)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c3807c4-262a-423e-9907-d623416840b4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Оформити замовлення')]",
+      "targets": [
+        ["linkText=Оформити замовлення", "linkText"],
+        ["css=.modal-content__btn-secondary", "css:finder"],
+        ["xpath=//a[contains(text(),'Оформити замовлення')]", "xpath:link"],
+        ["xpath=//div[@id='product-modal']/div/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/personal/order/make/')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Оформити замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e87b9f02-5343-4aff-9056-6b29a5cf5ef3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.products__delete",
+      "targets": [
+        ["css=.products__delete", "css:finder"],
+        ["xpath=//i[@onclick='javascript:basketItemDel(11087774)']", "xpath:attributes"],
+        ["xpath=//tr[@id='11087774']/td[5]/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "53e01de7-e802-4477-a2de-8728e82143b9",
+    "name": "2",
+    "commands": [{
+      "id": "e28d2fde-10c5-41a3-b93b-a964dd43c41d",
+      "comment": "",
+      "command": "open",
+      "target": "https://book-ye.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32aae179-d8aa-47c0-bf2c-2b48a26135f1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x702",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45c09736-c277-485f-aeb4-24b27bd2c70c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-bottom__login-txt",
+      "targets": [
+        ["css=.header-bottom__login-txt", "css:finder"],
+        ["xpath=//a[3]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Увійти або Зареєструватися')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d35def2-1adc-4f3c-9bcf-fec45c214dc9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[contains(text(),'Зареєструватись')]",
+      "targets": [
+        ["linkText=Зареєструватись", "linkText"],
+        ["css=.login-to-register:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Зареєструватись')]", "xpath:link"],
+        ["xpath=//div[@id='login-modal']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div[4]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Зареєструватись')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2e1c8d2-bf37-4966-b5d8-3234568bf71d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Зареєструватись",
+      "targets": [
+        ["linkText=Зареєструватись", "linkText"],
+        ["css=.login-to-register:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Зареєструватись')]", "xpath:link"],
+        ["xpath=//div[@id='login-modal']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div[4]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Зареєструватись')]", "xpath:innerText"]
+      ],
+      "value": "Зареєструватись"
+    }, {
+      "id": "190c308b-617c-4d8d-9146-fae9a4be5fd5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Зареєструватись",
+      "targets": [
+        ["linkText=Зареєструватись", "linkText"],
+        ["css=.login-to-register:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Зареєструватись')]", "xpath:link"],
+        ["xpath=//div[@id='login-modal']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div[4]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Зареєструватись')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c90ccbb9-4027-46c1-af0e-3590f0566584",
+      "comment": "",
+      "command": "click",
+      "target": "name=REGISTER[NAME]",
+      "targets": [
+        ["name=REGISTER[NAME]", "name"],
+        ["css=.auth-popup__outer--fp .auth-popup__input-box:nth-child(4) > .auth-popup__input", "css:finder"],
+        ["xpath=//input[@name='REGISTER[NAME]']", "xpath:attributes"],
+        ["xpath=//div[@id='register-modal']/div/div[2]/form/fieldset/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div[2]/form/fieldset/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8f73a24-3272-43b5-8e56-afad919c1b6b",
+      "comment": "",
+      "command": "type",
+      "target": "name=REGISTER[NAME]",
+      "targets": [
+        ["name=REGISTER[NAME]", "name"],
+        ["css=.auth-popup__outer--fp .auth-popup__input-box:nth-child(4) > .auth-popup__input", "css:finder"],
+        ["xpath=//input[@name='REGISTER[NAME]']", "xpath:attributes"],
+        ["xpath=//div[@id='register-modal']/div/div[2]/form/fieldset/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div[2]/form/fieldset/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "ab8aaaf6-04fb-42de-9593-f0b2260300ed",
+      "comment": "",
+      "command": "click",
+      "target": "name=REGISTER[EMAIL]",
+      "targets": [
+        ["name=REGISTER[EMAIL]", "name"],
+        ["css=.auth-popup__input-box:nth-child(5) > .email-field", "css:finder"],
+        ["xpath=//input[@name='REGISTER[EMAIL]']", "xpath:attributes"],
+        ["xpath=//div[@id='register-modal']/div/div[2]/form/fieldset[2]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div[2]/form/fieldset[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "159de72d-5d78-49a4-b75a-ba95216b7cbc",
+      "comment": "",
+      "command": "type",
+      "target": "name=REGISTER[EMAIL]",
+      "targets": [
+        ["name=REGISTER[EMAIL]", "name"],
+        ["css=.auth-popup__input-box:nth-child(5) > .email-field", "css:finder"],
+        ["xpath=//input[@name='REGISTER[EMAIL]']", "xpath:attributes"],
+        ["xpath=//div[@id='register-modal']/div/div[2]/form/fieldset[2]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div[2]/form/fieldset[2]/input", "xpath:position"]
+      ],
+      "value": "test@test.com"
+    }, {
+      "id": "46b35c84-324d-431b-b55c-c885844b6336",
+      "comment": "",
+      "command": "click",
+      "target": "name=REGISTER[PERSONAL_PHONE]",
+      "targets": [
+        ["name=REGISTER[PERSONAL_PHONE]", "name"],
+        ["css=.auth-popup__input-box:nth-child(6) > .js-phone", "css:finder"],
+        ["xpath=//input[@name='REGISTER[PERSONAL_PHONE]']", "xpath:attributes"],
+        ["xpath=//div[@id='register-modal']/div/div[2]/form/fieldset[3]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div[2]/form/fieldset[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6f78e5a-69d6-47ff-9465-5917eba54ef8",
+      "comment": "",
+      "command": "type",
+      "target": "name=REGISTER[PERSONAL_PHONE]",
+      "targets": [
+        ["name=REGISTER[PERSONAL_PHONE]", "name"],
+        ["css=.auth-popup__input-box:nth-child(6) > .js-phone", "css:finder"],
+        ["xpath=//input[@name='REGISTER[PERSONAL_PHONE]']", "xpath:attributes"],
+        ["xpath=//div[@id='register-modal']/div/div[2]/form/fieldset[3]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div[2]/form/fieldset[3]/input", "xpath:position"]
+      ],
+      "value": "+38(000)000-00-00"
+    }, {
+      "id": "1110f8cb-f722-4ba1-bed1-2d8d4a9d62fe",
+      "comment": "",
+      "command": "click",
+      "target": "name=REGISTER[PASSWORD]",
+      "targets": [
+        ["name=REGISTER[PASSWORD]", "name"],
+        ["css=.auth-popup__input-box:nth-child(7) > .auth-popup__input", "css:finder"],
+        ["xpath=//input[@name='REGISTER[PASSWORD]']", "xpath:attributes"],
+        ["xpath=//div[@id='register-modal']/div/div[2]/form/fieldset[4]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1323f74a-8e5d-49a0-8a44-d3e10eedce2f",
+      "comment": "",
+      "command": "type",
+      "target": "name=REGISTER[PASSWORD]",
+      "targets": [
+        ["name=REGISTER[PASSWORD]", "name"],
+        ["css=.auth-popup__input-box:nth-child(7) > .auth-popup__input", "css:finder"],
+        ["xpath=//input[@name='REGISTER[PASSWORD]']", "xpath:attributes"],
+        ["xpath=//div[@id='register-modal']/div/div[2]/form/fieldset[4]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[4]/input", "xpath:position"]
+      ],
+      "value": "test1234"
+    }, {
+      "id": "10cb262e-8eed-4fd8-afbb-b2e923f994ec",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='register-modal']/div/div[2]/form/fieldset[5]",
+      "targets": [
+        ["css=.auth-popup__input-box:nth-child(9)", "css:finder"],
+        ["xpath=//div[@id='register-modal']/div/div[2]/form/fieldset[5]", "xpath:idRelative"],
+        ["xpath=//fieldset[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83ce97f1-154a-428b-a640-10e281209094",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.auth-popup__submit--reg",
+      "targets": [
+        ["css=.auth-popup__submit--reg", "css:finder"],
+        ["xpath=//input[@value='Зареєструватись']", "xpath:attributes"],
+        ["xpath=//div[@id='register-modal']/div/div[2]/form/fieldset[5]/input[2]", "xpath:idRelative"],
+        ["xpath=//fieldset[5]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6dfb8f5c-cf9d-45a8-a5d7-501365b87471",
+      "comment": "",
+      "command": "click",
+      "target": "css=.auth-popup__submit--reg",
+      "targets": [
+        ["css=.auth-popup__submit--reg", "css:finder"],
+        ["xpath=//input[@value='Зареєструватись']", "xpath:attributes"],
+        ["xpath=//div[@id='register-modal']/div/div[2]/form/fieldset[5]/input[2]", "xpath:idRelative"],
+        ["xpath=//fieldset[5]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bcc62bb-f131-4426-b84b-88b32985373e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.auth-popup__submit--reg",
+      "targets": [
+        ["css=.auth-popup__submit--reg", "css:finder"],
+        ["xpath=//input[@value='Зареєструватись']", "xpath:attributes"],
+        ["xpath=//div[@id='register-modal']/div/div[2]/form/fieldset[5]/input[2]", "xpath:idRelative"],
+        ["xpath=//fieldset[5]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5b4445f1-9e24-402c-8c06-40f7a1b1a935",
+    "name": "3",
+    "commands": [{
+      "id": "226d780a-2c40-4c77-bd50-f7de672becd5",
+      "comment": "",
+      "command": "open",
+      "target": "https://book-ye.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6003367-4805-4933-b530-213465a0ff6c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x702",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97de174d-c22f-4042-9da6-7ecc25c6c66f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,418)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92b31528-43b6-4027-9696-0c126c4a81a0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//button[@type='submit'])[2]",
+      "targets": [
+        ["css=.button:nth-child(7)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='feedback-form']/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d10d0dec-d597-4cd2-86fa-ef2d8f2d350d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Зворотний зв'язок",
+      "targets": [
+        ["linkText=Зворотний зв'язок", "linkText"],
+        ["css=.footer__nav-item:nth-child(8) > .footer__nav-link", "css:finder"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//footer/div/div/div/ul/li[8]/a", "xpath:position"]
+      ],
+      "value": "Зворотний зв'язок"
+    }, {
+      "id": "c06201eb-625f-4598-8b64-bad7f99dec9c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Зворотний зв'язок",
+      "targets": [
+        ["linkText=Зворотний зв'язок", "linkText"],
+        ["css=.footer__nav-item:nth-child(8) > .footer__nav-link", "css:finder"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//footer/div/div/div/ul/li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b563f88b-01d4-4671-9f4f-736ac5e4ab80",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-callback-form .form__select",
+      "targets": [
+        ["css=.js-callback-form .form__select", "css:finder"],
+        ["xpath=(//select[@name='reason'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='feedback-form']/div/div/form/div/div/span/select", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/form/div/div/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a038288b-088c-45a1-8bf7-809a0a243c72",
+      "comment": "",
+      "command": "select",
+      "target": "css=.js-callback-form .form__select",
+      "targets": [],
+      "value": "label=Технічна підтримка"
+    }, {
+      "id": "feb9775f-fab6-4bb8-8ada-87f625fc4461",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-callback-form .form__wrapper-forminput:nth-child(1) > .input",
+      "targets": [
+        ["css=.js-callback-form .form__wrapper-forminput:nth-child(1) > .input", "css:finder"],
+        ["xpath=(//input[@name='name'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='feedback-form']/div/div/form/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/form/div/div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bda96962-2538-4023-88a5-1a68bc67b3ac",
+      "comment": "",
+      "command": "type",
+      "target": "css=.js-callback-form .form__wrapper-forminput:nth-child(1) > .input",
+      "targets": [
+        ["css=.js-callback-form .form__wrapper-forminput:nth-child(1) > .input", "css:finder"],
+        ["xpath=(//input[@name='name'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='feedback-form']/div/div/form/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/form/div/div[2]/span/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "963b93d4-78db-45da-999f-0e600f3628b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-callback-form .email-field",
+      "targets": [
+        ["css=.js-callback-form .email-field", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='feedback-form']/div/div/form/div/div[2]/span[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/form/div/div[2]/span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0c680d8-ea47-4139-918d-9d279e834c19",
+      "comment": "",
+      "command": "type",
+      "target": "css=.js-callback-form .email-field",
+      "targets": [
+        ["css=.js-callback-form .email-field", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='feedback-form']/div/div/form/div/div[2]/span[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/form/div/div[2]/span[2]/input", "xpath:position"]
+      ],
+      "value": "test@test.test"
+    }, {
+      "id": "836053f2-64b2-439e-9ead-f2188dd625e8",
+      "comment": "",
+      "command": "click",
+      "target": "name=textteria",
+      "targets": [
+        ["name=textteria", "name"],
+        ["css=.js-callback-form > .form__textarea", "css:finder"],
+        ["xpath=//textarea[@name='textteria']", "xpath:attributes"],
+        ["xpath=//div[@id='feedback-form']/div/div/form/textarea", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/form/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5e7cfe6-52f9-413b-9db0-085e852281be",
+      "comment": "",
+      "command": "type",
+      "target": "name=textteria",
+      "targets": [
+        ["name=textteria", "name"],
+        ["css=.js-callback-form > .form__textarea", "css:finder"],
+        ["xpath=//textarea[@name='textteria']", "xpath:attributes"],
+        ["xpath=//div[@id='feedback-form']/div/div/form/textarea", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/form/textarea", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "618ea7d2-11c7-453c-86d3-5fe610adb3d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(7)",
+      "targets": [
+        ["css=.button:nth-child(7)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='feedback-form']/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3975632-b39b-4476-937d-2bab65ecb2c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#feedback-form .close",
+      "targets": [
+        ["css=#feedback-form .close", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='feedback-form']/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3a2fc8dd-a353-44c0-b588-e05122265714",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://lnu.edu.ua/", "https://book-ye.com.ua/"],
+  "plugins": []
+}
